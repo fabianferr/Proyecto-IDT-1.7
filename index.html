@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Descarga de la aplicación</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <div class="app-container">
+        <img src="./apk/fondo.jpg" alt="Imagen de la aplicación" class="app-image">
+        <h1>StikersWap</h1>
+        <p>Una aplicacion de stikers de whatsapp creada desde cero simple y basico para que no consuma recursos</p>
+        <a href="./apk/app3008836-cfolv1 (1).apk" class="download-btn" download>Descargar Aplicación</a>
+    </div>
+    <script>
+        // Cambia el color del botón de descarga cuando el mouse pasa por encima
+        var downloadBtn = document.querySelector('.download-btn');
+        downloadBtn.addEventListener('mouseover', function() {
+            this.style.backgroundColor = '#0056b3';
+        });
+        downloadBtn.addEventListener('mouseout', function() {
+            this.style.backgroundColor = '#007BFF';
+        });
+    </script>
+</body>
+</html>
